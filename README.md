@@ -1,4 +1,4 @@
-# CCC-classes — C++ Assignment & Project Solutions
+# CCC-classes — C++ Assignments, Homework & LeetCode Solutions
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
@@ -6,82 +6,66 @@
 
 ## 📌 About
 
-This repository contains my **C++ assignment and project solutions** for the CCC (C/C++ Course) at **Aditya Institute of Technology and Management (AITAM), Tekkali**. Solutions are organized **week-wise / unit-wise**, following the course syllabus from basic syntax to advanced object-oriented programming concepts.
+This repository contains my **C++ assignments, homework, and LeetCode problems** solved during the **CCC (C++ Coding Classes)** at **Aditya Institute of Technology and Management (AITAM), Tekkali**.
+
+This is a short, intensive 20-day program covering the basic concepts of C++ programming — from fundamentals through hands-on lab practice, assignments, and problem-solving.
+
+**Course Duration:** 13th July 2026 – 4th August 2026
 
 The goal of this repo is to:
-- Track my learning progress through the course
-- Keep solutions organized and easy to reference
+- Track my progress through the course
+- Keep assignments, homework, and LeetCode solutions organized in one place
 - Share working examples with classmates
 
 ---
 
-## 🗂️ Repository Structure
+## 👨‍🏫 About the Instructor
+
+Classes are taught by **Gunabalan Sir**, from **R Sequence** company. Sir is from Tamil Nadu but teaches the course in English.
+
+---
+
+## 🗂️ What's Inside
 
 ```
 CCC-classes/
 │
-├── Week-1/          # Basics: syntax, I/O, variables, data types
-├── Week-2/          # Operators, control statements, loops
-├── Week-3/          # Functions, arrays, strings
-├── Week-4/          # Pointers, structures
-├── Week-5/          # OOP basics: classes & objects
-├── Week-6/          # Inheritance, polymorphism
-├── ...
+├── Assignments/     # In-class assignments given during CCC lab sessions
+├── Homework/         # Homework problems assigned after class
+├── LeetCode/         # LeetCode problems solved during CCC lab
 └── README.md
 ```
 
-> Folder names may vary slightly depending on how the syllabus is structured — check individual folders for exact topic labels.
-
----
-
-## 💻 Topics Covered
-
-- Input/Output & Basic Syntax
-- Operators & Control Flow (if-else, switch, loops)
-- Functions & Recursion
-- Arrays & Strings
-- Pointers & Dynamic Memory
-- Structures & Unions
-- Object-Oriented Programming (Classes, Objects, Inheritance, Polymorphism, Encapsulation)
-- File Handling
-- STL (Standard Template Library) basics
+> Folder names may be updated as more content is added through the course.
 
 ---
 
 ## 🚀 How to Run the Code
 
-1. Clone or download this repository
-   ```bash
-   git clone https://github.com/shivaji-code/CCC-classes.git
-   ```
-2. Navigate to the relevant week/unit folder
-3. Compile using g++
-   ```bash
-   g++ filename.cpp -o output
-   ./output
-   ```
+All code in this repository was written and tested using **online C++ compilers** — mainly:
 
-Alternatively, you can open any `.cpp` file directly in an online compiler like [OneCompiler](https://onecompiler.com/cpp) or [Programiz](https://www.programiz.com/cpp-programming/online-compiler/) if you don't have a local setup.
+- [Programiz Online Compiler](https://www.programiz.com/cpp-programming/online-compiler/)
+- [GDB Online Compiler](https://www.onlinegdb.com/online_c++_compiler)
+
+To run any file:
+1. Copy the code from the `.cpp` file
+2. Paste it into [Programiz](https://www.programiz.com/cpp-programming/online-compiler/) or [GDB Online](https://www.onlinegdb.com/online_c++_compiler)
+3. Click **Run**
+
+No local setup is required.
 
 ---
 
 ## 🛠️ Tools Used
 
 - **Language:** C++
-- **Editor/IDE:** Dev C++ / VS Code
-- **Compiler:** g++ (GNU Compiler Collection)
+- **Compilers:** Programiz Online Compiler, GDB Online Compiler
 
 ---
 
-## 🎓 About the Course
+## 🤝 Usage
 
-**CCC (C/C++ Course)** is part of the B.Tech curriculum at AITAM, Tekkali, aimed at building strong programming fundamentals through hands-on assignments and mini-projects.
-
----
-
-## 🤝 Contributing / Usage
-
-Feel free to explore, learn from, and reference this code. If you spot a bug or a better approach to a problem, pull requests and suggestions are welcome!
+Feel free to explore and learn from this code. Suggestions for better approaches are always welcome!
 
 ---
 
