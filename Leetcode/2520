@@ -1,0 +1,8 @@
+class Solution {
+public:
+    int countDigits(int num) {
+    int val,temp=0, count=0;
+    temp=num;
+    while(num>0){
+        val=num%10;
+        if(val>0 && temp%val==0){
