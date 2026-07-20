@@ -11,7 +11,11 @@ public:
     return ans;
     }
 };
-//another way
+
+// ==========================================
+// Another way
+// ==========================================
+
 class Solution {
 public:
     int addDigits(int num) {
