@@ -6,3 +6,10 @@ public:
     while(num>0){
         val=num%10;
         if(val>0 && temp%val==0){
+            count++;
+        }
+        num=num/10;
+    }
+    return count;    
+    }
+};
