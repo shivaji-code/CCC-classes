@@ -1,0 +1,30 @@
+class Solution {
+public:
+    bool checkRecord(string s) {
+        bool Ans;
+        int p_count=0,a_count=0,l_count=0;
+     for(char ch:s){
+        if(ch=='P'){
+            p_count++;
+        } 
+        else if(ch=='A'){
+            a_count++;
+        }
+        else{
+            l_count++;
+        }
+     } 
+     for (int i=0;i<s.size();i++){
+         if(s[i]=='L' && s[i+1]=='L' && s[i+2]=='L'){
+            return false;
+         }
+     }
+     if(a_count<2){
+         Ans= true;
+     }
+        else{
+            Ans=false;
+        }
+        return Ans;
+    }
+};
