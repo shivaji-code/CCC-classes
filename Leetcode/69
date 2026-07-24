@@ -5,7 +5,11 @@ public:
     return sq;    
     }
 };
-//another way
+
+// ==========================================
+// Another way
+// ==========================================
+
 class Solution {
 public:
     int mySqrt(int x) {

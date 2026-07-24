@@ -23,7 +23,10 @@ public:
     }
 };
 
-//another way
+// ==========================================
+// Another way
+// ==========================================
+
 class Solution {
 public:
     int fib(int n) {
