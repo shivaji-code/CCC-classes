@@ -124,35 +124,8 @@ Length of the number is: 5
 
 ---
 
-## 4. Subtraction Using Function
 
-Subtracts two numbers using a user-defined function.
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int sub(int a, int b) {
-    return a - b;
-}
-
-int main() {
-    int a, b;
-    cin >> a >> b;
-    cout << sub(a, b);
-    return 0;
-}
-```
-
-**Output:**
-```
-10 4
-6
-```
-
----
-
-## 5. Simple Calculator (Using Switch Case)
+## 4. Simple Calculator (Using Switch Case)
 
 A simple calculator that performs +, -, *, /, and % based on the operator entered.
 
@@ -206,7 +179,7 @@ infinity
 
 ---
 
-## 6. Print Character Array in Border Pattern
+## 5. Print Character Array in Border Pattern
 
 Prints a character array such that letters appear only on the first row, last row, and the diagonal (border-style pattern), with spaces elsewhere.
 
