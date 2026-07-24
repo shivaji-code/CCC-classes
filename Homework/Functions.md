@@ -124,7 +124,6 @@ Length of the number is: 5
 
 ---
 
-
 ## 4. Simple Calculator (Using Switch Case)
 
 A simple calculator that performs +, -, *, /, and % based on the operator entered.
@@ -179,7 +178,65 @@ infinity
 
 ---
 
-## 5. Print Character Array in Border Pattern
+## 5. Simple Calculator Using Function
+
+Same calculator logic as above, but the switch-case operations are moved into a user-defined function.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void calculate(int a, int b, char op) {
+    switch (op) {
+        case '+':
+            cout << a + b;
+            break;
+        case '-':
+            cout << a - b;
+            break;
+        case '*':
+            cout << a * b;
+            break;
+        case '/':
+            if (b != 0) {
+                cout << a / b;
+            } else {
+                cout << "infinity";
+            }
+            break;
+        case '%':
+            cout << a % b;
+            break;
+        default:
+            cout << "Invalid input";
+    }
+}
+
+int main() {
+    int a, b;
+    char op;
+    cin >> a >> op >> b;
+
+    calculate(a, b, op);
+
+    return 0;
+}
+```
+
+**Output:**
+```
+10 + 5
+15
+```
+
+```
+10 / 0
+infinity
+```
+
+---
+
+## 6. Print Character Array in Border Pattern
 
 Prints a character array such that letters appear only on the first row, last row, and the diagonal (border-style pattern), with spaces elsewhere.
 
