@@ -1,0 +1,34 @@
+class Solution {
+public:
+    int thirdMax(vector<int>& nums) {
+        int n = nums.size();
+
+        if (n == 1) return nums[0];
+        if (n == 2) return max(nums[0], nums[1]);
+
+        long long max = LLONG_MIN, smax = LLONG_MIN, tmax = LLONG_MIN;
+
+        for (int i = 0; i < n; i++) {
+            if (nums[i] == max || nums[i] == smax || nums[i] == tmax)
+                continue;
+
+            if (nums[i] > max) {
+                tmax = smax;
+                smax = max;
+                max = nums[i];
+            }
+            else if (nums[i] > smax) {
+                tmax = smax;
+                smax = nums[i];
+            }
+            else if (nums[i] > tmax) {
+                tmax = nums[i];
+            }
+        }
+
+        if (tmax == LLONG_MIN)
+            return max;
+
+        return tmax;
+    }
+};
