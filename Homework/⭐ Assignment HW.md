@@ -1,4 +1,4 @@
-# CPP Assignment Programs (with sample I/O)
+# C++ Assignment Programs (with sample I/O)
 
 
 ---
@@ -1389,3 +1389,86 @@ int main() {
 #include <iostream>
 using namespace std;
 
+int main() {
+    int n;
+    cin >> n;
+
+    int a[100];
+
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    cout << "Array after Segregation" << endl;
+
+    // Print even numbers first
+    for (int i = 0; i < n; i++) {
+        if (a[i] % 2 == 0)
+            cout << a[i] << " ";
+    }
+
+    // Print odd numbers next
+    for (int i = 0; i < n; i++) {
+        if (a[i] % 2 != 0)
+            cout << a[i] << " ";
+    }
+
+    return 0;
+}
+```
+**Sample Input:**
+```
+6
+1 2 3 4 5 6
+```
+**Sample Output:**
+```
+Array after Segregation
+2 4 6 1 3 5 
+```
+
+---
+
+### 30 July 2026
+**Q: Remove duplicates from an array**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int a[100];
+
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    for (int i = 0; i < n; i++) {
+        bool duplicate = false;
+
+        for (int j = 0; j < i; j++) {
+            if (a[i] == a[j]) {
+                duplicate = true;
+                break;
+            }
+        }
+
+        if (!duplicate) {
+            cout << a[i] << " ";
+        }
+    }
+
+    return 0;
+}
+```
+**Sample Input:**
+```
+6
+1 2 2 3 3 4
+```
+**Sample Output:**
+```
+1 2 3 4 
+```
