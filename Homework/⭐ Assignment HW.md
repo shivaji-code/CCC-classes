@@ -1,9 +1,10 @@
-# C++ Practice Programs
+# C++ Practice Programs (with sample I/O)
+
 
 ---
 
 ### 17 July 2026
-**Q: Read the length and breadth of a rectangular room and find the length of rope required to fence it and the area of carpet needed to cover it.**
+**Q: Rectangle rope length & carpet area**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -22,11 +23,20 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+5 3
+```
+**Sample Output:**
+```
+The required length is 16 m
+The required area of carpet is 15 sqm
+```
 
 ---
 
 ### 17 July 2026
-**Q: Given the number of copies printed, selling price, and production cost per copy (with a fixed cost of 100), calculate the total profit.**
+**Q: Book printing profit calculation**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -43,11 +53,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+1000 50 30
+```
+**Sample Output:**
+```
+19900
+```
 
 ---
 
 ### 17 July 2026
-**Q: Given a 4-digit number, find the sum of its first and last digits.**
+**Q: Sum of first & last digit (4-digit number)**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -64,11 +82,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+4285
+```
+**Sample Output:**
+```
+9
+```
 
 ---
 
 ### 18 July 2026
-**Q: Given a year, determine whether it is a leap year.**
+**Q: Check leap year**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -85,11 +111,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+2024
+```
+**Sample Output:**
+```
+2024 is a leap year.
+```
 
 ---
 
 ### 18 July 2026
-**Q: Given a character, check whether it is a vowel, a consonant, or not an alphabet.**
+**Q: Check vowel / consonant / not an alphabet**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -112,11 +146,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+A
+```
+**Sample Output:**
+```
+Vowel
+```
 
 ---
 
 ### 18 July 2026
-**Q: Given the price, discount percentage, and shipping fee for the same product on three shopping sites (Flipkart, Snapdeal, Amazon), calculate the final price on each and determine which site offers the cheapest deal.**
+**Q: Find cheapest shopping site (Flipkart/Snapdeal/Amazon)**
 ```cpp
 #include <iostream>
 
@@ -156,11 +198,24 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+1000 10 50
+2000 20 40
+1500 15 60
+```
+**Sample Output:**
+```
+950
+1640
+1335
+Flipkart
+```
 
 ---
 
 ### 20 July 2026
-**Q: Given a student's age, admission year, family income, number of arrears, score, and attendance, determine scholarship eligibility (Eligible / Partially Eligible / Not Eligible) based on multiple criteria.**
+**Q: Check scholarship eligibility**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -208,11 +263,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+19 2022 180000 1 75 85
+```
+**Sample Output:**
+```
+Eligible
+```
 
 ---
 
 ### 20 July 2026
-**Q: Given a year and month, print the number of days in that month (accounting for leap years).**
+**Q: Find number of days in a month**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -251,11 +314,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+2024 2
+```
+**Sample Output:**
+```
+29 Days
+```
 
 ---
 
 ### 20 July 2026
-**Q: Given the month, monthly rent, and number of days stayed, calculate the total rent, applying a 20% surcharge during peak months (April–June and November–December).**
+**Q: Room rent with peak-season surcharge**
 ```cpp
 #include <iostream>
 #include <iomanip>
@@ -281,11 +352,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+5 1000 10
+```
+**Sample Output:**
+```
+12000.00
+```
 
 ---
 
 ### 21 July 2026
-**Q: Given a number, reverse its digits and print the result.**
+**Q: Reverse digits of a number**
 ```cpp
 #include<iostream>
 using namespace std;
@@ -300,11 +379,19 @@ int main(){
     cout << sum;
 }
 ```
+**Sample Input:**
+```
+12345
+```
+**Sample Output:**
+```
+54321
+```
 
 ---
 
 ### 21 July 2026
-**Q: Given a range [a, b], print all even numbers followed by all odd numbers in that range.**
+**Q: Print evens then odds in a range**
 ```cpp
 #include<iostream>
 using namespace std;
@@ -324,11 +411,20 @@ int main(){
     }
 }
 ```
+**Sample Input:**
+```
+1 10
+```
+**Sample Output:**
+```
+2 4 6 8 10 
+1 3 5 7 9 
+```
 
 ---
 
 ### 21 July 2026
-**Q: Given a range [m, n], find all 2-digit numbers where the sum of digits plus the product of digits equals the number itself.**
+**Q: 2-digit numbers where digit-sum + digit-product = number**
 ```cpp
 #include <iostream>
 
@@ -352,11 +448,27 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+10 99
+```
+**Sample Output:**
+```
+19
+29
+39
+49
+59
+69
+79
+89
+99
+```
 
 ---
 
 ### 22 July 2026
-**Q: Given n, find the nth Fibonacci number.**
+**Q: Find nth Fibonacci number**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -386,11 +498,19 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+10
+```
+**Sample Output:**
+```
+34
+```
 
 ---
 
 ### 22 July 2026
-**Q: Given n, print a hollow square pattern of stars of size n x n.**
+**Q: Print hollow square star pattern**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -415,11 +535,23 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+5
+```
+**Sample Output:**
+```
+*****
+*   *
+*   *
+*   *
+*****
+```
 
 ---
 
 ### 22 July 2026
-**Q: Given a number, check whether it is a palindrome.**
+**Q: Check if a number is a palindrome**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -446,11 +578,19 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+121
+```
+**Sample Output:**
+```
+Palindrome
+```
 
 ---
 
 ### 23 July 2026
-**Q: Given a number, simulate the Collatz sequence (n/2 if even, 3n+1 if odd) until it reaches 1, printing each step and the total step count.**
+**Q: Simulate the Collatz sequence**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -478,11 +618,28 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+6
+```
+**Sample Output:**
+```
+6
+3
+10
+5
+16
+8
+4
+2
+1
+8
+```
 
 ---
 
 ### 23 July 2026
-**Q: Given a number, repeatedly sum its digits until a single digit is obtained (digital root).**
+**Q: Find digital root of a number**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -509,11 +666,19 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+9875
+```
+**Sample Output:**
+```
+2
+```
 
 ---
 
 ### 23 July 2026
-**Q: Given n, print an inverted right-angled triangle pattern of stars.**
+**Q: Print inverted right-angled triangle pattern**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -535,11 +700,23 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+5
+```
+**Sample Output:**
+```
+*****
+****
+***
+**
+*
+```
 
 ---
 
 ### 24 July 2026
-**Q: Given two arrays of equal size, check whether every element in the first array is greater than or equal to the corresponding element in the second array ("Compatible"/"Incompatible").**
+**Q: Check if two arrays are compatible**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -574,11 +751,22 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+3
+5 6 7
+3
+4 5 6
+```
+**Sample Output:**
+```
+Compatible
+```
 
 ---
 
 ### 24 July 2026
-**Q: Given an array, count the number of distinct elements in it.**
+**Q: Count distinct elements in an array**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -612,11 +800,20 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+6
+1 2 2 3 4 4
+```
+**Sample Output:**
+```
+There are 4 distinct element in the array.
+```
 
 ---
 
 ### 24 July 2026
-**Q: Given two arrays, check whether they are "Same" (equal size and equal sum) or "Not Same".**
+**Q: Check if two arrays are the same (size + sum)**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -646,11 +843,21 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+3 3
+1 2 3
+3 2 1
+```
+**Sample Output:**
+```
+Same
+```
 
 ---
 
 ### 27 July 2026
-**Q: Given an array, a position, and an element, insert the element at the given position in the array.**
+**Q: Insert an element at a given position in an array**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -687,11 +894,28 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+5
+1 2 3 4 5
+3
+99
+```
+**Sample Output:**
+```
+Array after insertion is
+1
+2
+99
+3
+4
+5
+```
 
 ---
 
 ### 27 July 2026
-**Q: Given an array, sort it in ascending order using bubble sort.**
+**Q: Sort an array using bubble sort**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -725,11 +949,25 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+5
+5 3 8 1 2
+```
+**Sample Output:**
+```
+The Sorted array is:
+1
+2
+3
+5
+8
+```
 
 ---
 
 ### 27 July 2026
-**Q: Given an array, find the sum of its even elements and the sum of its odd elements separately.**
+**Q: Sum of even & odd elements in an array**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -755,11 +993,21 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+5
+1 2 3 4 5
+```
+**Sample Output:**
+```
+The sum of the even numbers in the array is 6
+The sum of the odd numbers in the array is 9
+```
 
 ---
 
 ### 28 July 2026
-**Q: Given a square matrix, check whether it is an upper triangular matrix.**
+**Q: Check if a matrix is upper triangular**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -802,11 +1050,22 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+3
+1 2 3
+0 4 5
+0 0 6
+```
+**Sample Output:**
+```
+Upper triangular matrix
+```
 
 ---
 
 ### 28 July 2026
-**Q: Given a matrix, find the sum of each row and each column, and identify which row and column has the maximum sum.**
+**Q: Find row/column with maximum sum in a matrix**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -878,11 +1137,24 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+2 3
+1 2 3
+4 5 6
+```
+**Sample Output:**
+```
+The Sum of rows is 6 15 
+Row 2 has a maximum sum
+The Sum of columns is 5 7 9 
+Column 3 has the maximum sum
+```
 
 ---
 
 ### 28 July 2026
-**Q: Given a square matrix, print its transpose.**
+**Q: Print transpose of a square matrix**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -918,11 +1190,25 @@ int main()
     return 0;
 }
 ```
+**Sample Input:**
+```
+3
+1 2 3
+4 5 6
+7 8 9
+```
+**Sample Output:**
+```
+Transpose matrix is:
+1 4 7 
+2 5 8 
+3 6 9 
+```
 
 ---
 
 ### 29 July 2026
-**Q: Given a string, find and print its first non-repeating character.**
+**Q: Find first non-repeating character in a string**
 ```cpp
 #include <iostream>
 #include <string>
@@ -952,11 +1238,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+swiss
+```
+**Sample Output:**
+```
+w
+```
 
 ---
 
 ### 29 July 2026
-**Q: Given a string, count the number of vowels in it.**
+**Q: Count vowels in a string**
 ```cpp
 #include <iostream>
 #include <string>
@@ -981,11 +1275,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+Hello World
+```
+**Sample Output:**
+```
+Number of vowels: 3
+```
 
 ---
 
 ### 29 July 2026
-**Q: Given a sentence, print the words in reverse order.**
+**Q: Reverse the words in a sentence**
 ```cpp
 #include <iostream>
 #include <sstream>
@@ -1012,11 +1314,19 @@ int main() {
     return 0;
 }
 ```
+**Sample Input:**
+```
+The quick brown fox
+```
+**Sample Output:**
+```
+fox brown quick The
+```
 
 ---
 
 ### 30 July 2026
-**Q: Given an array, print each distinct element along with its frequency of occurrence.**
+**Q: Print frequency of each distinct array element**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -1059,64 +1369,23 @@ int main() {
     return 0;
 }
 ```
-
----
-
-### 30 July 2026
-**Q: Given an array, segregate it so that all even numbers appear before all odd numbers.**
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int n;
-    cin >> n;
-
-    int a[100];
-
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
-    }
-
-    cout << "Array after Segregation" << endl;
-
-    // Print even numbers first
-    for (int i = 0; i < n; i++) {
-        if (a[i] % 2 == 0)
-            cout << a[i] << " ";
-    }
-
-    // Print odd numbers next
-    for (int i = 0; i < n; i++) {
-        if (a[i] % 2 != 0)
-            cout << a[i] << " ";
-    }
-
-    return 0;
-}
+**Sample Input:**
+```
+6
+1 2 2 3 3 3
+```
+**Sample Output:**
+```
+1 1
+2 2
+3 3
 ```
 
 ---
 
 ### 30 July 2026
-**Q: Given an array, remove duplicate elements and print only the distinct elements in their original order.**
+**Q: Segregate even numbers before odd numbers in array**
 ```cpp
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n;
-    cin >> n;
-
-    int a[100];
-
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
-    }
-
-    for (int i = 0; i < n; i++) {
-        bool duplicate = false;
-
-        for (int j = 0; j < i; j++) {
-            if (a[i] == a[j]) {
-              
